@@ -16,11 +16,11 @@ function ResultChart(props) {
         </thead>
         <tbody>
           {props.results.map(result => (
-            <tr key={result.name.last}>
+            <tr key={result.id.value}>
               <th scope="row">{result.id.value}</th>
               <td>{result.name.first}</td>
               <td>{result.name.last}</td>
-              <td>{result.dob.date.slice(5, 7)}/{result.dob.date.slice(8, 10)}</td>
+              <td>{result.dob.date.slice(5, 10)}</td>
               <td>{result.email}</td>
               <td>Office: {result.phone}, Cell: {result.cell}</td>
             </tr>
