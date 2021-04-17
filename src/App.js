@@ -1,16 +1,14 @@
 import React from "react";
-import SearchResultContainer from "./components/SearchResultContainer.js";
-import Header from "./components/Header.js";
-
+import CallResults from "./components/CallResults";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
       <Header />
-      <SearchResultContainer />
+      <CallResults />;
     </div>
-  );
-
+  )
 }
 
 export default App;
