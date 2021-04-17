@@ -1,8 +1,16 @@
 import React from "react";
-import SearchResultContainer from "./components/SearchResultContainer";
+import SearchResultContainer from "./components/SearchResultContainer.js";
+import Header from "./components/Header.js";
+
 
 function App() {
-  return <SearchResultContainer />;
+  return (
+    <div>
+      <Header />
+      <SearchResultContainer />
+    </div>
+  );
+
 }
 
 export default App;
