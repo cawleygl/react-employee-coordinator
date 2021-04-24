@@ -7,7 +7,7 @@ This React application allows users to organize and view informtaion about the m
 React, Node.js, Express, randomuser.me API, Bootstrap CSS Framework, HTML, CSS, Javascript
 
 ## Link to Deployed Application
-[Offline Budget Tracker](https://cawleygl.github.io/react-employee-coordinator/)
+[React Employee Coordinator](https://cawleygl.github.io/react-employee-coordinator/)
 
 ## Screenshot
 ![Screenshot](https://github.com/cawleygl/react-employee-coordinator/blob/master/Assets/Screen%20Shot%202021-04-17%20at%2011.10.39%20AM.png?raw=true)
